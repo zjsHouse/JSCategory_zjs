@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JSCategory_zjs_Example' do
+  pod 'JSCategory_zjs', :path => '../'
+
+  target 'JSCategory_zjs_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
