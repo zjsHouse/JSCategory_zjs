@@ -7,16 +7,21 @@
 //
 
 #import "JSViewController.h"
-
+#import <JSCategory_zjs.h>
 @interface JSViewController ()
 
 @end
 
 @implementation JSViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
+    
+    NSString *zjsStr = @"15060400611";
+    BOOL isNumber = [zjsStr js_validatePhoneNO];
+    NSLog(@"%@",isNumber?@"是电话号码":@"不是电话花吗");
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

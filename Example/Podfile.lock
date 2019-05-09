@@ -1,0 +1,16 @@
+PODS:
+  - JSCategory_zjs (0.1.0)
+
+DEPENDENCIES:
+  - JSCategory_zjs (from `../`)
+
+EXTERNAL SOURCES:
+  JSCategory_zjs:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSCategory_zjs: abab3f38d98568d5f05dbef31d32ba5e11838025
+
+PODFILE CHECKSUM: e6c456976f19b9654aa3e81882b7cbc7a293604a
+
+COCOAPODS: 1.6.1

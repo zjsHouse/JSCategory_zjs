@@ -39,9 +39,9 @@
 /* Begin PBXFileReference section */
 		011180E6A41EC1F24659C3F7 /* Pods-JSCategory_zjs_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCategory_zjs_Example.debug.xcconfig"; path = "Target Support Files/Pods-JSCategory_zjs_Example/Pods-JSCategory_zjs_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0AFFA88651788F0D336D49A1 /* Pods-JSCategory_zjs_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCategory_zjs_Example.release.xcconfig"; path = "Target Support Files/Pods-JSCategory_zjs_Example/Pods-JSCategory_zjs_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0B747DEEE5137BB1270B8173 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4276F8DBA0E2314CD9E5A1A8 /* JSCategory_zjs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JSCategory_zjs.podspec; path = ../JSCategory_zjs.podspec; sourceTree = "<group>"; };
-		4A3C602D6DA7A99207F92B9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0B747DEEE5137BB1270B8173 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4276F8DBA0E2314CD9E5A1A8 /* JSCategory_zjs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JSCategory_zjs.podspec; path = ../JSCategory_zjs.podspec; sourceTree = "<group>"; };
+		4A3C602D6DA7A99207F92B9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JSCategory_zjs_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSCategory_zjs_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -103,7 +103,6 @@
 				8AE9FC90BC23994CE6FF6630 /* Pods-JSCategory_zjs_Tests.debug.xcconfig */,
 				AE7C19671B2693A06BBFB37D /* Pods-JSCategory_zjs_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zSky;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = F6Z87XTZ3S;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -498,9 +501,11 @@
 			baseConfigurationReference = 011180E6A41EC1F24659C3F7 /* Pods-JSCategory_zjs_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F6Z87XTZ3S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSCategory_zjs/JSCategory_zjs-Prefix.pch";
 				INFOPLIST_FILE = "JSCategory_zjs/JSCategory_zjs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,9 +518,11 @@
 			baseConfigurationReference = 0AFFA88651788F0D336D49A1 /* Pods-JSCategory_zjs_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F6Z87XTZ3S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSCategory_zjs/JSCategory_zjs-Prefix.pch";
 				INFOPLIST_FILE = "JSCategory_zjs/JSCategory_zjs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -8,5 +8,7 @@
 #ifndef JSCategory_zjs_h
 #define JSCategory_zjs_h
 
+#import "NSObject+JSKVO.h"
+#import "NSString+ZJSCategory.h"
 
 #endif /* JSCategory_zjs_h */
