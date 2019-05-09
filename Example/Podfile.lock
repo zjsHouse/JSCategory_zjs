@@ -1,5 +1,5 @@
 PODS:
-  - JSCategory_zjs (0.1.0)
+  - JSCategory_zjs (0.1.1)
 
 DEPENDENCIES:
   - JSCategory_zjs (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JSCategory_zjs: abab3f38d98568d5f05dbef31d32ba5e11838025
+  JSCategory_zjs: bfb5304bcc255ea37d33e490ca2a03f84a0adff0
 
 PODFILE CHECKSUM: e6c456976f19b9654aa3e81882b7cbc7a293604a
 
